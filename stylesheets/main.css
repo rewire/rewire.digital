@@ -61,9 +61,39 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 4em;
+  font-weight: 300;
+}
+
 p {
   font-family: 'Nunito', sans-serif;
   text-transform: uppercase;
+  font-weight: 300;
+  font-size: .1em;
+
+  color: black;
+  background: #0099ff;
+  padding: .3em .6em;
+  border-radius: 1em;
+}
+
+h1 {
+  mix-blend-mode: difference;
+}
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  background-size: cover;
+  color: white;
 }
 
 
